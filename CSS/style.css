@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    /*I took that from a web page called https://css-tricks.com/perfect-full-page-background-image/*/
+    background: url('../images/whiskey.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+}
+
+.quotes-container {}
+
+.features-container {}
+
+.favorites-container {}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.lead {
+    color: #FFA500;
+    margin: 25px 0;
+}
+
+.jumbotron .text-muted {
+    color: #f8f9fa !important;
+}
+
+small {
+    font-size: 80%;
+    font-weight: 400;
+    font-style: italic !important;
+}
