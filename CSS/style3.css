@@ -3,9 +3,65 @@ body {
 }
 
 
-.navbar-black {
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
     background-color: black !important;
+    border: transparent;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: #ffe680;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #ffe680;
+}
+
+/*Home*/
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #ffe680;
+    background-color: transparent;
+}
+
+
+
+
+/*About*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffe680;
+}
+
+/*About hover*/
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
     color: white;
+}
+
+
+
+/*text in the bar*/
+
+.navbar-light .navbar-text {
+    color: #dfba4d;
+}
+
+.navbar-light .navbar-toggler {
+    color:#ffe680;
+    border-color:#ffe680 ;
 }
 
 .alert-container {
@@ -76,7 +132,7 @@ blockquote.quote {
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: white;
-      display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
