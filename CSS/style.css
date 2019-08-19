@@ -7,6 +7,13 @@ body {
     background-color: black !important;
     color: white;
 }
+.custom-toggler {
+    border-color: #FFA500;
+}
+
+.fa-bars{
+    color: #FFA500;
+}
 
 .alert-container {
     padding: 0;
@@ -16,6 +23,7 @@ body {
     background-color: #ffc107;
     border-color: #ffc107;
 }
+
 
 .nopadding {
     padding: 0;
